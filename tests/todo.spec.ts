@@ -4,7 +4,7 @@ import TodoPage from '../Pages/TodoPage';
 import registerPage from '../Pages/registerPage';
 import NewTodoPage from '../Pages/NewTodoPage';
 
-test.skip('should be able to add new todo', async ({ page, request, context }) => {
+test('should be able to add new todo', async ({ page, request, context }) => {
     //crer un user
     const User = new user()
 
