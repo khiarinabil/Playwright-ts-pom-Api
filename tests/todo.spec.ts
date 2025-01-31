@@ -42,6 +42,6 @@ test.skip('should be able a delet a todo', async ({ page, context, request }) =>
     await todopage.delettodoByIndex();
     const deletitem = page.locator('[data-testid="no-todos"]');
     await expect(deletitem).toBeVisible();
-    //las version
+    //las version11
 
 });
